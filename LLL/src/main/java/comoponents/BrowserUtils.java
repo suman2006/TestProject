@@ -7,8 +7,13 @@ public class BrowserUtils {
 
 	public static WebDriver launchBrowser(WebDriver driver) {
 		driver = new ChromeDriver();
+		driver.get("");
 		return driver;
 		
+	}
+	
+	public void m1(WebDriver driver){
+		driver = new ChromeDriver();
 	}
 
 	public static void closeBrowser(WebDriver driver) {
