@@ -9,6 +9,9 @@ public class BrowserUtils {
 		driver = new ChromeDriver();
 		driver.get("");
 		return driver;
+		driver = new ChromeDriver();
+		driver.get("");
+		return driver;
 		
 	}
 	
