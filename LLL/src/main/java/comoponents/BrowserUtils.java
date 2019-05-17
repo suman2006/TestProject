@@ -7,6 +7,10 @@ public class BrowserUtils {
 
 	public static WebDriver launchBrowser(WebDriver driver) {
 		driver = new ChromeDriver();
+		driver = new ChromeDriver();
+		driver.get("");
+		return driver;
+		driver.get("");
 		driver.get("");
 		return driver;
 		driver.get("");
